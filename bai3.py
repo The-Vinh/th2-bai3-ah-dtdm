@@ -12,6 +12,7 @@ class Form1(Form1Template):
 
   def btn_nhap_click(self, **event_args):
     """This method is called when the button is clicked"""
+    """Dùng Selection Sort"""
     global data
     data.append(self.txt_nhap_n.text)
     self.lbl_day_so.text = self.lbl_day_so.text + " " +self.txt_nhap_n.text
